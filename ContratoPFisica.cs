@@ -1,4 +1,4 @@
-﻿using System;
+ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,12 +47,12 @@ namespace Tarefaa.Entidades
         {
             return " - Número: "
                 + Numero
-                + "\n - Valor: $"
+                + " /Valor: $"
                 + Valor.ToString("F2", CultureInfo.InvariantCulture)
-                + "\n - Prazo: "
+                + " /Prazo: "
                 + Prazo
                 + " meses"
-                + "\n - Valor Prestação: $"
+                + "  /Valor Prestação: $"
                 + CalcularPrestacao().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
